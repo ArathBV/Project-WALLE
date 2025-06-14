@@ -42,45 +42,49 @@ var NAVTREE =
     [ "Electrical Design", "electrical.html", [
       [ "Overview", "electrical.html#autotoc_md15", [
         [ "WALL-E Pinout Table", "electrical.html#autotoc_md16", null ],
-        [ "PCB Design", "electrical.html#autotoc_md17", null ]
+        [ "PCB Design", "electrical.html#autotoc_md17", [
+          [ "Main Board Schematic", "electrical.html#autotoc_md18", null ],
+          [ "Power Regulation", "electrical.html#autotoc_md19", null ],
+          [ "PCB Layout", "electrical.html#autotoc_md20", null ]
+        ] ]
       ] ]
     ] ],
     [ "Mechanical Design", "mech_design.html", [
-      [ "Overview", "mech_design.html#autotoc_md18", null ],
-      [ "Where it all began!", "mech_design.html#autotoc_md19", [
-        [ "List of modified Wall-E components:", "mech_design.html#autotoc_md20", null ]
+      [ "Overview", "mech_design.html#autotoc_md21", null ],
+      [ "Where it all began!", "mech_design.html#autotoc_md22", [
+        [ "List of modified Wall-E components:", "mech_design.html#autotoc_md23", null ]
       ] ],
-      [ "Modified Components", "mech_design.html#autotoc_md21", [
-        [ "Head Modifications", "mech_design.html#autotoc_md22", [
-          [ "Right Eye", "mech_design.html#autotoc_md23", null ]
+      [ "Modified Components", "mech_design.html#autotoc_md24", [
+        [ "Head Modifications", "mech_design.html#autotoc_md25", [
+          [ "Right Eye", "mech_design.html#autotoc_md26", null ]
         ] ],
-        [ "Body Modifications", "mech_design.html#autotoc_md24", [
-          [ "Body Front Door", "mech_design.html#autotoc_md25", null ],
-          [ "Bottom Panel", "mech_design.html#autotoc_md26", null ],
-          [ "Back Panel", "mech_design.html#autotoc_md27", null ],
-          [ "Side Body Panels", "mech_design.html#autotoc_md28", null ],
-          [ "Servo Mounts", "mech_design.html#autotoc_md29", null ]
+        [ "Body Modifications", "mech_design.html#autotoc_md27", [
+          [ "Body Front Door", "mech_design.html#autotoc_md28", null ],
+          [ "Bottom Panel", "mech_design.html#autotoc_md29", null ],
+          [ "Back Panel", "mech_design.html#autotoc_md30", null ],
+          [ "Side Body Panels", "mech_design.html#autotoc_md31", null ],
+          [ "Servo Mounts", "mech_design.html#autotoc_md32", null ]
         ] ],
-        [ "Arm modifications", "mech_design.html#autotoc_md30", [
-          [ "Inner and Outer Hinges", "mech_design.html#autotoc_md31", null ],
-          [ "Arm Barrel and Axle", "mech_design.html#autotoc_md32", null ],
-          [ "Arm Piston", "mech_design.html#autotoc_md33", null ]
+        [ "Arm modifications", "mech_design.html#autotoc_md33", [
+          [ "Inner and Outer Hinges", "mech_design.html#autotoc_md34", null ],
+          [ "Arm Barrel and Axle", "mech_design.html#autotoc_md35", null ],
+          [ "Arm Piston", "mech_design.html#autotoc_md36", null ]
         ] ],
-        [ "Hand Modifications", "mech_design.html#autotoc_md34", [
-          [ "Hand Axle", "mech_design.html#autotoc_md35", null ],
-          [ "Finger and Arm Barrel Hook", "mech_design.html#autotoc_md36", null ],
-          [ "Arm Barrel Hook", "mech_design.html#autotoc_md37", null ]
+        [ "Hand Modifications", "mech_design.html#autotoc_md37", [
+          [ "Hand Axle", "mech_design.html#autotoc_md38", null ],
+          [ "Finger and Arm Barrel Hook", "mech_design.html#autotoc_md39", null ],
+          [ "Arm Barrel Hook", "mech_design.html#autotoc_md40", null ]
         ] ],
-        [ "Wheel and Drive Modifications", "mech_design.html#autotoc_md38", [
-          [ "Motor Mount", "mech_design.html#autotoc_md39", null ],
-          [ "Motor Tread Gear Shaft", "mech_design.html#autotoc_md40", null ],
-          [ "Tread Plates", "mech_design.html#autotoc_md41", null ]
+        [ "Wheel and Drive Modifications", "mech_design.html#autotoc_md41", [
+          [ "Motor Mount", "mech_design.html#autotoc_md42", null ],
+          [ "Motor Tread Gear Shaft", "mech_design.html#autotoc_md43", null ],
+          [ "Tread Plates", "mech_design.html#autotoc_md44", null ]
         ] ],
-        [ "Revised but Not Included in Design", "mech_design.html#autotoc_md42", [
-          [ "Top Body Panel", "mech_design.html#autotoc_md43", null ]
+        [ "Revised but Not Included in Design", "mech_design.html#autotoc_md45", [
+          [ "Top Body Panel", "mech_design.html#autotoc_md46", null ]
         ] ]
       ] ],
-      [ "WALL-E Print Information and Paint Job", "mech_design.html#autotoc_md44", null ]
+      [ "WALL-E Print Information and Paint Job", "mech_design.html#autotoc_md47", null ]
     ] ],
     [ "Software Design", "software.html", null ],
     [ "Classes", "annotated.html", [
@@ -110,7 +114,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_arm_axle_assembly_c_a_d_8png.html",
-"main_8cpp.html#ad9bb8fdae15a672ec237fa8f1456c775"
+"main_8cpp.html#a9c6222bae4d0328dd843ae099623b40b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
