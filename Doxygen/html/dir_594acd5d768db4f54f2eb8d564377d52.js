@@ -12,6 +12,8 @@ var dir_594acd5d768db4f54f2eb8d564377d52 =
     [ "GearShaftCAD.png", "_gear_shaft_c_a_d_8png.html", null ],
     [ "HandAxleCAD.png", "_hand_axle_c_a_d_8png.html", null ],
     [ "InnerHingeCAD.png", "_inner_hinge_c_a_d_8png.html", null ],
+    [ "Inspo1.png", "_inspo1_8png.html", null ],
+    [ "Inspo2.png", "_inspo2_8png.html", null ],
     [ "MotorMountCAD.png", "_motor_mount_c_a_d_8png.html", null ],
     [ "OriginalArmCAD.png", "_original_arm_c_a_d_8png.html", null ],
     [ "OuterHingeCAD.png", "_outer_hinge_c_a_d_8png.html", null ],

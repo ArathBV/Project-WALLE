@@ -13,7 +13,9 @@ var searchData=
   ['initialyaw_10',['initialYaw',['../class_w_a_l_l_e.html#a6b17225b089c3c85419cfac4551f58d1',1,'WALLE']]],
   ['inner_20and_20outer_20hinges_11',['Inner and Outer Hinges',['../mech_design.html#autotoc_md18',1,'']]],
   ['innerhingecad_2epng_12',['InnerHingeCAD.png',['../_inner_hinge_c_a_d_8png.html',1,'']]],
-  ['integral_13',['integral',['../class_p_i_d_controller.html#a9f1834a4933702b2de5076effea32f1f',1,'PIDController']]],
-  ['islow_14',['isLow',['../class_battery_monitor.html#a8cbe1a83c37ee6ed53f376e79782b7ab',1,'BatteryMonitor']]],
-  ['it_20all_20began_15',['Where it all began!',['../mech_design.html#autotoc_md6',1,'']]]
+  ['inspo1_2epng_13',['Inspo1.png',['../_inspo1_8png.html',1,'']]],
+  ['inspo2_2epng_14',['Inspo2.png',['../_inspo2_8png.html',1,'']]],
+  ['integral_15',['integral',['../class_p_i_d_controller.html#a9f1834a4933702b2de5076effea32f1f',1,'PIDController']]],
+  ['islow_16',['isLow',['../class_battery_monitor.html#a8cbe1a83c37ee6ed53f376e79782b7ab',1,'BatteryMonitor']]],
+  ['it_20all_20began_17',['Where it all began!',['../mech_design.html#autotoc_md6',1,'']]]
 ];
