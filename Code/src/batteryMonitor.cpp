@@ -1,10 +1,9 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file           : batteryMonitor.h
-  * @brief          : File containing the functions to the Battery Monitor class that
-  * utilizes the ADC on the STM32 chip
-  * @author			: Arath Villanueva (abvillan@calpoly.edu) Devon Bolt (dwbolt@calpoly.edu)
+  * @file           batteryMonitor.h
+  * @brief          File containing the functions to the Battery Monitor class that utilizes the ADC on the STM32 chip
+  * @author			Arath Villanueva (abvillan@calpoly.edu) Devon Bolt (dwbolt@calpoly.edu)
   ******************************************************************************
   * @attention
   *
