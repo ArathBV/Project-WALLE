@@ -1,0 +1,23 @@
+/**
+ * \mainpage WALL-E Project
+ *
+ * Welcome to **WALL-E** Project!
+ *
+ * ![WALLE](images/WALLE_COMPL.png)
+ *
+ * ## Overview
+ * This project was a creative project inspired by the movie WALL-E, desgined to implement and learn the aspects of Mechanical Control
+ * System Design from the ME 507 course at California Polytechnic State University San Luis Obispo.
+ *
+ * ## Sections
+ * - \ref walle "WALL-E Project"
+ * - \ref mechDesign "Mechanical Design"
+ * - \ref software "Software Design"
+ * - \ref electrical "Electrical Design"
+ * - \ref sensors "Sensors and Peripherals"
+ *
+ * ## Repo Structure
+ * - `Code/`: Main source code and header files
+ * - `Hardware/`: Contains Modified 3D CAD models and stl files of WALL-E. Also Contains
+ * the PCB design files for WALL-E.
+ */

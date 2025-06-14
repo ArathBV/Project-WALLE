@@ -46,7 +46,7 @@ public:
 private:
 
     /**
-    * @brief Enumeration for Color Detection
+    * @brief Enumeration for WALL-E State Transitions
     */
     enum class State {
     	  START_SCAN,     /**<START_SCAN FSM State to begin scans and data collection*/
