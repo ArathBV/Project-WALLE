@@ -14,11 +14,13 @@ var searchData=
   ['color_5fgreen_11',['COLOR_GREEN',['../camera_8h.html#ad7c74d3d00e784da0cb4f50cf504abafacfa9d8bbffc418447ed826f286abca02',1,'camera.h']]],
   ['color_5fred_12',['COLOR_RED',['../camera_8h.html#ad7c74d3d00e784da0cb4f50cf504abafa592503b9434c1e751a92f3fc536d7950',1,'camera.h']]],
   ['color_5funknown_13',['COLOR_UNKNOWN',['../camera_8h.html#ad7c74d3d00e784da0cb4f50cf504abafaa9cdbd17e722d6c38919ad074dc0d4c7',1,'camera.h']]],
-  ['computervision_14',['computerVision',['../class_w_a_l_l_e.html#a877c686c186bb9ab38de20a11cdbd741',1,'WALLE']]],
-  ['config_5fmode_15',['CONFIG_MODE',['../class_b_n_o055.html#a6dd0349d3e1d3f919b0ca6096d25d7fea2f624704e6cbe763e8a3ef405f1e3440',1,'BNO055']]],
-  ['cs_5fpin_5f_16',['cs_pin_',['../class_o_v2640_camera.html#a7b55bd662ba23bba5f96e375d00473e2',1,'OV2640Camera']]],
-  ['cs_5fport_5f_17',['cs_port_',['../class_o_v2640_camera.html#ae69041d42b7831abfc0cedfca1f218db',1,'OV2640Camera']]],
-  ['cshigh_18',['csHigh',['../class_o_v2640_camera.html#a69a1836fca51b01e8269366d42103256',1,'OV2640Camera']]],
-  ['cslow_19',['csLow',['../class_o_v2640_camera.html#aa454205e6f59b3f3e041beb32834e204',1,'OV2640Camera']]],
-  ['currentsegment_20',['currentSegment',['../class_w_a_l_l_e.html#aa8d33e4a037a24e4abe28417800bdc0d',1,'WALLE']]]
+  ['components_14',['Modified Components',['../mech_design.html#autotoc_md8',1,'']]],
+  ['components_3a_15',['List of modified Wall-E components:',['../mech_design.html#autotoc_md7',1,'']]],
+  ['computervision_16',['computerVision',['../class_w_a_l_l_e.html#a877c686c186bb9ab38de20a11cdbd741',1,'WALLE']]],
+  ['config_5fmode_17',['CONFIG_MODE',['../class_b_n_o055.html#a6dd0349d3e1d3f919b0ca6096d25d7fea2f624704e6cbe763e8a3ef405f1e3440',1,'BNO055']]],
+  ['cs_5fpin_5f_18',['cs_pin_',['../class_o_v2640_camera.html#a7b55bd662ba23bba5f96e375d00473e2',1,'OV2640Camera']]],
+  ['cs_5fport_5f_19',['cs_port_',['../class_o_v2640_camera.html#ae69041d42b7831abfc0cedfca1f218db',1,'OV2640Camera']]],
+  ['cshigh_20',['csHigh',['../class_o_v2640_camera.html#a69a1836fca51b01e8269366d42103256',1,'OV2640Camera']]],
+  ['cslow_21',['csLow',['../class_o_v2640_camera.html#aa454205e6f59b3f3e041beb32834e204',1,'OV2640Camera']]],
+  ['currentsegment_22',['currentSegment',['../class_w_a_l_l_e.html#aa8d33e4a037a24e4abe28417800bdc0d',1,'WALLE']]]
 ];

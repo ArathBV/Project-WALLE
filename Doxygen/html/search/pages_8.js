@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['sections_0',['Sections',['../index.html#autotoc_md2',1,'']]],
-  ['sensors_20and_20peripherals_1',['Sensors and Peripherals',['../sensors.html',1,'']]],
-  ['software_20design_2',['Software Design',['../software.html',1,'']]],
-  ['source_20code_3',['WALL-E Source Code',['../C:/Users/arath/OneDrive/Documents/ME 507/Project-WALLE/Code/README.md#autotoc_md0',1,'']]],
-  ['structure_4',['Repo Structure',['../index.html#autotoc_md3',1,'']]]
+  ['in_20design_0',['Revised but Not Included in Design',['../mech_design.html#autotoc_md29',1,'']]],
+  ['included_20in_20design_1',['Revised but Not Included in Design',['../mech_design.html#autotoc_md29',1,'']]],
+  ['inner_20and_20outer_20hinges_2',['Inner and Outer Hinges',['../mech_design.html#autotoc_md18',1,'']]],
+  ['it_20all_20began_3',['Where it all began!',['../mech_design.html#autotoc_md6',1,'']]]
 ];

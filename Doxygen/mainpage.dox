@@ -3,11 +3,14 @@
  *
  * Welcome to **WALL-E** Project!
  *
- * ![WALLE](images/WALLE_COMPL.png)
- *
+ * ![Final Design: WALL-E](images/WALLE_COMPL.png)
+ * 
  * ## Overview
  * This project was a creative project inspired by the movie WALL-E, desgined to implement and learn the aspects of Mechanical Control
  * System Design from the ME 507 course at California Polytechnic State University San Luis Obispo.
+ * 
+ * ### Demo Video of WALL-E
+ * You can watch the [WALL-E Demo Video here](https://youtu.be/VHbeLyWtM4Q)
  *
  * ## Sections
  * - \ref walle "WALL-E Project"

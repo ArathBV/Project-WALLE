@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['wall_20e_20project_0',['WALL-E Project',['../index.html',1,'']]],
-  ['wall_20e_20source_20code_1',['WALL-E Source Code',['../C:/Users/arath/OneDrive/Documents/ME 507/Project-WALLE/Code/README.md#autotoc_md0',1,'']]]
+  ['list_20of_20modified_20wall_20e_20components_3a_0',['List of modified Wall-E components:',['../mech_design.html#autotoc_md7',1,'']]]
 ];
