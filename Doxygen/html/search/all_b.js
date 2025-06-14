@@ -1,18 +1,8 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.cpp']]],
-  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['mainpage_2edox_2',['mainpage.dox',['../mainpage_8dox.html',1,'']]],
-  ['measure_3',['measure',['../class_h_c_s_r04.html#a387506064154fce6fc0834849cfb6d0a',1,'HCSR04']]],
-  ['mechanical_20design_4',['Mechanical Design',['../mech_design.html',1,'']]],
-  ['mechanical_20design_2edox_5',['Mechanical Design.dox',['../_mechanical_01_design_8dox.html',1,'']]],
-  ['modifications_6',['Modifications',['../mech_design.html#autotoc_md11',1,'Body Modifications'],['../mech_design.html#autotoc_md21',1,'Hand Modifications'],['../mech_design.html#autotoc_md9',1,'Head Modifications'],['../mech_design.html#autotoc_md25',1,'Wheel and Drive Modifications']]],
-  ['modifications_7',['Arm modifications',['../mech_design.html#autotoc_md17',1,'']]],
-  ['modified_20components_8',['Modified Components',['../mech_design.html#autotoc_md8',1,'']]],
-  ['modified_20wall_20e_20components_3a_9',['List of modified Wall-E components:',['../mech_design.html#autotoc_md7',1,'']]],
-  ['motor_20mount_10',['Motor Mount',['../mech_design.html#autotoc_md26',1,'']]],
-  ['motor_20tread_20gear_20shaft_11',['Motor Tread Gear Shaft',['../mech_design.html#autotoc_md27',1,'']]],
-  ['motormountcad_2epng_12',['MotorMountCAD.png',['../_motor_mount_c_a_d_8png.html',1,'']]],
-  ['mount_13',['Motor Mount',['../mech_design.html#autotoc_md26',1,'']]],
-  ['mounts_14',['Servo Mounts',['../mech_design.html#autotoc_md16',1,'']]]
+  ['leftarm_0',['leftArm',['../class_w_a_l_l_e.html#ae3e4f6febdb62c51726fdf460daaa2d6',1,'WALLE']]],
+  ['lefthand_1',['leftHand',['../class_w_a_l_l_e.html#a65cd5df32ab07a08ed91dc1356eb43a0',1,'WALLE']]],
+  ['leftmotor_2',['leftMotor',['../class_w_a_l_l_e.html#abc610366fc4aa0ecabe7f658545b98fd',1,'WALLE::leftMotor'],['../main_8cpp.html#aae5bbed5ae925157c861445c46715eb3',1,'leftMotor:&#160;main.cpp']]],
+  ['liftarms_3',['liftArms',['../class_w_a_l_l_e.html#a6ff77fbe522cbc980823f10b4ceadcb8',1,'WALLE']]],
+  ['list_20of_20modified_20wall_20e_20components_3a_4',['List of modified Wall-E components:',['../mech_design.html#autotoc_md7',1,'']]]
 ];

@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['leftarm_0',['leftArm',['../class_w_a_l_l_e.html#ae3e4f6febdb62c51726fdf460daaa2d6',1,'WALLE']]],
-  ['lefthand_1',['leftHand',['../class_w_a_l_l_e.html#a65cd5df32ab07a08ed91dc1356eb43a0',1,'WALLE']]],
-  ['leftmotor_2',['leftMotor',['../class_w_a_l_l_e.html#abc610366fc4aa0ecabe7f658545b98fd',1,'WALLE::leftMotor'],['../main_8cpp.html#aae5bbed5ae925157c861445c46715eb3',1,'leftMotor:&#160;main.cpp']]],
-  ['liftarms_3',['liftArms',['../class_w_a_l_l_e.html#a6ff77fbe522cbc980823f10b4ceadcb8',1,'WALLE']]],
-  ['list_20of_20modified_20wall_20e_20components_3a_4',['List of modified Wall-E components:',['../mech_design.html#autotoc_md7',1,'']]]
+  ['kd_0',['Kd',['../class_p_i_d_controller.html#a22ef7c93498970edb0b04bef3ae3d2f9',1,'PIDController']]],
+  ['ki_1',['Ki',['../class_p_i_d_controller.html#a8acd1f19045a89a9dbd1848e56ae6ae0',1,'PIDController']]],
+  ['kp_2',['Kp',['../class_p_i_d_controller.html#a5c3eb07a0c4a00b86e1433b84e458a56',1,'PIDController']]]
 ];

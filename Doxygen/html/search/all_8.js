@@ -6,13 +6,14 @@ var searchData=
   ['imu_3',['imu',['../class_w_a_l_l_e.html#a4bbf128fe3b795983f10071499413638',1,'WALLE']]],
   ['in_20design_4',['Revised but Not Included in Design',['../mech_design.html#autotoc_md29',1,'']]],
   ['included_20in_20design_5',['Revised but Not Included in Design',['../mech_design.html#autotoc_md29',1,'']]],
-  ['init_6',['init',['../class_w_a_l_l_e.html#a886daf9ecf75b5f18d408c89075013f6',1,'WALLE']]],
-  ['init_5fimu_7',['init_imu',['../class_b_n_o055.html#a8a3bd35ff5a91579bc6e652338ac4eba',1,'BNO055']]],
-  ['initialize_8',['initialize',['../class_o_v2640_camera.html#a56e50f6f2b2bcc0966a5d503099334ad',1,'OV2640Camera']]],
-  ['initialyaw_9',['initialYaw',['../class_w_a_l_l_e.html#a6b17225b089c3c85419cfac4551f58d1',1,'WALLE']]],
-  ['inner_20and_20outer_20hinges_10',['Inner and Outer Hinges',['../mech_design.html#autotoc_md18',1,'']]],
-  ['innerhingecad_2epng_11',['InnerHingeCAD.png',['../_inner_hinge_c_a_d_8png.html',1,'']]],
-  ['integral_12',['integral',['../class_p_i_d_controller.html#a9f1834a4933702b2de5076effea32f1f',1,'PIDController']]],
-  ['islow_13',['isLow',['../class_battery_monitor.html#a8cbe1a83c37ee6ed53f376e79782b7ab',1,'BatteryMonitor']]],
-  ['it_20all_20began_14',['Where it all began!',['../mech_design.html#autotoc_md6',1,'']]]
+  ['information_20and_20paint_20job_6',['WALL-E Print Information and Paint Job',['../mech_design.html#autotoc_md31',1,'']]],
+  ['init_7',['init',['../class_w_a_l_l_e.html#a886daf9ecf75b5f18d408c89075013f6',1,'WALLE']]],
+  ['init_5fimu_8',['init_imu',['../class_b_n_o055.html#a8a3bd35ff5a91579bc6e652338ac4eba',1,'BNO055']]],
+  ['initialize_9',['initialize',['../class_o_v2640_camera.html#a56e50f6f2b2bcc0966a5d503099334ad',1,'OV2640Camera']]],
+  ['initialyaw_10',['initialYaw',['../class_w_a_l_l_e.html#a6b17225b089c3c85419cfac4551f58d1',1,'WALLE']]],
+  ['inner_20and_20outer_20hinges_11',['Inner and Outer Hinges',['../mech_design.html#autotoc_md18',1,'']]],
+  ['innerhingecad_2epng_12',['InnerHingeCAD.png',['../_inner_hinge_c_a_d_8png.html',1,'']]],
+  ['integral_13',['integral',['../class_p_i_d_controller.html#a9f1834a4933702b2de5076effea32f1f',1,'PIDController']]],
+  ['islow_14',['isLow',['../class_battery_monitor.html#a8cbe1a83c37ee6ed53f376e79782b7ab',1,'BatteryMonitor']]],
+  ['it_20all_20began_15',['Where it all began!',['../mech_design.html#autotoc_md6',1,'']]]
 ];

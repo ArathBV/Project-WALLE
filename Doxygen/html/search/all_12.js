@@ -1,8 +1,17 @@
 var searchData=
 [
-  ['unit_5fsel_5faddr_0',['UNIT_SEL_ADDR',['../bno055_8cpp.html#a060c7bb4b5e87152ee61e81ef930dd28',1,'bno055.cpp']]],
-  ['update_1',['update',['../class_p_i_d_controller.html#a14f325bb152c0069f2d501b4b22b1601',1,'PIDController::update()'],['../class_w_a_l_l_e.html#a00fcbf5d06f8ccdc670f2629a3133f34',1,'WALLE::update()']]],
-  ['updateeuler_2',['updateEuler',['../class_b_n_o055.html#a59ce44af03521c10c94a34c3e06b9373',1,'BNO055']]],
-  ['updategyro_3',['updateGyro',['../class_b_n_o055.html#ad2ca99cf5361cae90111ce2510052137',1,'BNO055']]],
-  ['updatepwm_4',['updatePWM',['../class_romi_motor.html#a37e1a67fd24e8f70dd71280c8d9e88cc',1,'RomiMotor']]]
+  ['targetyaw_0',['targetYaw',['../class_w_a_l_l_e.html#af39f557cfa378b661ac935613fbba5c1',1,'WALLE']]],
+  ['threshold_5fmv_1',['threshold_mV',['../class_battery_monitor.html#a1a46192fdba8b01f78dc4381e12d27f0',1,'BatteryMonitor']]],
+  ['top_20body_20panel_2',['Top Body Panel',['../mech_design.html#autotoc_md30',1,'']]],
+  ['toppanelcad_2epng_3',['TopPanelCAD.png',['../_top_panel_c_a_d_8png.html',1,'']]],
+  ['totalsegments_4',['totalSegments',['../class_w_a_l_l_e.html#a7d35f4e1f5dbda238c7a6361c85e0411',1,'WALLE']]],
+  ['tread_20gear_20shaft_5',['Motor Tread Gear Shaft',['../mech_design.html#autotoc_md27',1,'']]],
+  ['tread_20plates_6',['Tread Plates',['../mech_design.html#autotoc_md28',1,'']]],
+  ['treadcad_2epng_7',['TreadCAD.png',['../_tread_c_a_d_8png.html',1,'']]],
+  ['trigger_8',['trigger',['../class_h_c_s_r04.html#af26981c147570c20051a89fff9dcba4e',1,'HCSR04']]],
+  ['trigpin_9',['trigPin',['../class_h_c_s_r04.html#a8bcf24e5f73b384ca938e06a5ba237d0',1,'HCSR04']]],
+  ['trigport_10',['trigPort',['../class_h_c_s_r04.html#ae9148e1315d2beb0e38083a1ba5d19d8',1,'HCSR04']]],
+  ['turn_11',['TURN',['../class_w_a_l_l_e.html#a661cad6dd47571e578decfdb264de428a2ac9e5790771f403f29325a77d9e4a2a',1,'WALLE']]],
+  ['turn_5fsegment_12',['TURN_SEGMENT',['../class_w_a_l_l_e.html#a661cad6dd47571e578decfdb264de428a4cece2853de030c6cd521073371f8ad9',1,'WALLE']]],
+  ['turnpid_13',['turnPID',['../class_w_a_l_l_e.html#ac963d7fadf6748c20f40e0176eb743a5',1,'WALLE']]]
 ];

@@ -60,7 +60,8 @@ var NAVTREE =
         [ "Revised but Not Included in Design", "mech_design.html#autotoc_md29", [
           [ "Top Body Panel", "mech_design.html#autotoc_md30", null ]
         ] ]
-      ] ]
+      ] ],
+      [ "WALL-E Print Information and Paint Job", "mech_design.html#autotoc_md31", null ]
     ] ],
     [ "Software Design", "software.html", null ],
     [ "Electrical Design", "electrical.html", null ],

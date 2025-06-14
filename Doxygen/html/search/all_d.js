@@ -1,13 +1,6 @@
 var searchData=
 [
-  ['of_20modified_20wall_20e_20components_3a_0',['List of modified Wall-E components:',['../mech_design.html#autotoc_md7',1,'']]],
-  ['of_20wall_20e_1',['Demo Video of WALL-E',['../index.html#autotoc_md2',1,'']]],
-  ['opr_5fmode_5faddr_2',['OPR_MODE_ADDR',['../bno055_8cpp.html#a3776d112378bb0f0c3b90a1073e05193',1,'bno055.cpp']]],
-  ['originalarmcad_2epng_3',['OriginalArmCAD.png',['../_original_arm_c_a_d_8png.html',1,'']]],
-  ['outer_20hinges_4',['Inner and Outer Hinges',['../mech_design.html#autotoc_md18',1,'']]],
-  ['outerhingecad_2epng_5',['OuterHingeCAD.png',['../_outer_hinge_c_a_d_8png.html',1,'']]],
-  ['ov2640_5fi2c_5faddr_6',['OV2640_I2C_ADDR',['../main_8cpp.html#a69424e9122900d0a35dcc0b115053f20',1,'main.cpp']]],
-  ['ov2640_5frgb565_5fqqvga_7',['OV2640_RGB565_QQVGA',['../camera_regs_8h.html#a22d3e9590a077b5709b0810ef6561683',1,'cameraRegs.h']]],
-  ['ov2640camera_8',['OV2640Camera',['../class_o_v2640_camera.html',1,'OV2640Camera'],['../class_o_v2640_camera.html#a978f9372c5e7d84f8bddc6f25f4297c8',1,'OV2640Camera::OV2640Camera()']]],
-  ['overview_9',['Overview',['../index.html#autotoc_md1',1,'Overview'],['../mech_design.html#autotoc_md5',1,'Overview'],['../software.html#autotoc_md31',1,'Overview'],['../electrical.html#autotoc_md32',1,'Overview'],['../sensors.html#autotoc_md33',1,'Overview']]]
+  ['ndof_0',['NDOF',['../class_b_n_o055.html#a6dd0349d3e1d3f919b0ca6096d25d7fea662725c7dafcb5c0ced55075978dafbf',1,'BNO055']]],
+  ['normalizeangle_1',['normalizeAngle',['../class_w_a_l_l_e.html#a5268b39ca7dc2db7e9187fbd07fd8437',1,'WALLE']]],
+  ['not_20included_20in_20design_2',['Revised but Not Included in Design',['../mech_design.html#autotoc_md29',1,'']]]
 ];
