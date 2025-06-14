@@ -7,6 +7,7 @@
  * detail over source and header files can be found in the Classes tab of the website.
  *
  *
- *
+ * ## System Architecture
+ * The WALL-E project follows an FSM with states to start, turn, scan, scan_complete, turn, forward, stop. The goal of WALL-E is to transition between states scanning all around for the closest object. Upon recording all areas, WALL-E turns to the closest possible object, moves towards it. Attempts to pick up the object and identifies its color.
  *
  */
