@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.cpp']]],
-  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['measure_2',['measure',['../class_h_c_s_r04.html#a387506064154fce6fc0834849cfb6d0a',1,'HCSR04']]]
+  ['leftarm_0',['leftArm',['../class_w_a_l_l_e.html#ae3e4f6febdb62c51726fdf460daaa2d6',1,'WALLE']]],
+  ['lefthand_1',['leftHand',['../class_w_a_l_l_e.html#a65cd5df32ab07a08ed91dc1356eb43a0',1,'WALLE']]],
+  ['leftmotor_2',['leftMotor',['../class_w_a_l_l_e.html#abc610366fc4aa0ecabe7f658545b98fd',1,'WALLE::leftMotor'],['../main_8cpp.html#aae5bbed5ae925157c861445c46715eb3',1,'leftMotor:&#160;main.cpp']]],
+  ['liftarms_3',['liftArms',['../class_w_a_l_l_e.html#a6ff77fbe522cbc980823f10b4ceadcb8',1,'WALLE']]],
+  ['list_4',['Components List',['../sensors.html#autotoc_md38',1,'']]],
+  ['list_20of_20modified_20wall_20e_20components_3a_5',['List of modified Wall-E components:',['../mech_design.html#autotoc_md8',1,'']]],
+  ['locations_6',['Peripheral and Sensor Locations',['../sensors.html#autotoc_md40',1,'']]]
 ];

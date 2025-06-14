@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['opr_5fmode_5faddr_0',['OPR_MODE_ADDR',['../bno055_8cpp.html#a3776d112378bb0f0c3b90a1073e05193',1,'bno055.cpp']]],
-  ['ov2640_5fi2c_5faddr_1',['OV2640_I2C_ADDR',['../main_8cpp.html#a69424e9122900d0a35dcc0b115053f20',1,'main.cpp']]],
-  ['ov2640_5frgb565_5fqqvga_2',['OV2640_RGB565_QQVGA',['../camera_regs_8h.html#a22d3e9590a077b5709b0810ef6561683',1,'cameraRegs.h']]],
-  ['ov2640camera_3',['OV2640Camera',['../class_o_v2640_camera.html',1,'OV2640Camera'],['../class_o_v2640_camera.html#a978f9372c5e7d84f8bddc6f25f4297c8',1,'OV2640Camera::OV2640Camera()']]]
+  ['ndof_0',['NDOF',['../class_b_n_o055.html#a6dd0349d3e1d3f919b0ca6096d25d7fea662725c7dafcb5c0ced55075978dafbf',1,'BNO055']]],
+  ['normalizeangle_1',['normalizeAngle',['../class_w_a_l_l_e.html#a5268b39ca7dc2db7e9187fbd07fd8437',1,'WALLE']]],
+  ['not_20included_20in_20design_2',['Revised but Not Included in Design',['../mech_design.html#autotoc_md30',1,'']]]
 ];

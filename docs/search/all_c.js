@@ -1,5 +1,19 @@
 var searchData=
 [
-  ['ndof_0',['NDOF',['../class_b_n_o055.html#a6dd0349d3e1d3f919b0ca6096d25d7fea662725c7dafcb5c0ced55075978dafbf',1,'BNO055']]],
-  ['normalizeangle_1',['normalizeAngle',['../class_w_a_l_l_e.html#a5268b39ca7dc2db7e9187fbd07fd8437',1,'WALLE']]]
+  ['main_0',['main',['../main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.cpp']]],
+  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['mainpage_2edox_2',['mainpage.dox',['../mainpage_8dox.html',1,'']]],
+  ['measure_3',['measure',['../class_h_c_s_r04.html#a387506064154fce6fc0834849cfb6d0a',1,'HCSR04']]],
+  ['mechanical_20design_4',['Mechanical Design',['../mech_design.html',1,'']]],
+  ['mechanical_20design_2edox_5',['Mechanical Design.dox',['../_mechanical_01_design_8dox.html',1,'']]],
+  ['modifications_6',['Modifications',['../mech_design.html#autotoc_md12',1,'Body Modifications'],['../mech_design.html#autotoc_md22',1,'Hand Modifications'],['../mech_design.html#autotoc_md10',1,'Head Modifications'],['../mech_design.html#autotoc_md26',1,'Wheel and Drive Modifications']]],
+  ['modifications_7',['Arm modifications',['../mech_design.html#autotoc_md18',1,'']]],
+  ['modified_20components_8',['Modified Components',['../mech_design.html#autotoc_md9',1,'']]],
+  ['modified_20wall_20e_20components_3a_9',['List of modified Wall-E components:',['../mech_design.html#autotoc_md8',1,'']]],
+  ['motor_20mount_10',['Motor Mount',['../mech_design.html#autotoc_md27',1,'']]],
+  ['motor_20tread_20gear_20shaft_11',['Motor Tread Gear Shaft',['../mech_design.html#autotoc_md28',1,'']]],
+  ['motormountcad_2epng_12',['MotorMountCAD.png',['../_motor_mount_c_a_d_8png.html',1,'']]],
+  ['motors_13',['Motors',['../sensors.html#autotoc_md44',1,'']]],
+  ['mount_14',['Motor Mount',['../mech_design.html#autotoc_md27',1,'']]],
+  ['mounts_15',['Servo Mounts',['../mech_design.html#autotoc_md17',1,'']]]
 ];
