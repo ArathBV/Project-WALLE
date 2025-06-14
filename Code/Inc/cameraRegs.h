@@ -22,11 +22,18 @@
 
 #pragma once
 
+/**
+ * @brief Struct for reading the Register Value List and writing to I2C for Camera Configuration
+ */
 struct regval_list {
-    uint8_t reg;
-    uint8_t val;
+    uint8_t reg;    /**<reg Register Value to write to*/
+    uint8_t val;    /**<val Value to write to the designated register*/
 };
 
+/**
+ * @brief List of all registers to write data to for minimal camera usage and object detection. Minimal
+ * overhead on the STM32 MCU
+ */
 // OV2640 RGB565 QQVGA (160x120) Configuration
 const regval_list OV2640_RGB565_QQVGA[] = {
     {0xff, 0x01}, {0x12, 0x80}, // Reset

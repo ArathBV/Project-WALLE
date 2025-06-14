@@ -23,6 +23,9 @@
 
 #include "stm32f4xx_hal.h"
 
+/**
+ * @brief WALL-E Ultrasonic Sensor Class for range and distance detection from an object
+ */
 class HCSR04 {
 	public:
 		HCSR04(GPIO_TypeDef* trigPort, uint16_t trigPin,
@@ -34,12 +37,34 @@ class HCSR04 {
 		uint32_t getDistanceCm();   // Returns distance in cm
 
 	private:
+    /**
+     * Private variable trigPort that takes in the trigger Port definition from the STM32 Config
+     */
 		GPIO_TypeDef* trigPort;
+
+    /**
+     * Private variable trigPin that takes in the trigger GPIO pin value 
+     */
 		uint16_t trigPin;
+
+    /**
+     * Private variable trigPort that takes in the trigger Port definition from the STM32 Config
+     */
 		GPIO_TypeDef* echoPort;
+
+    /**
+     *  Private variable echoPin that takes in the Echo GPIO pin value  
+     */
 		uint16_t echoPin;
+
+    /**
+     * Private variable htim that takes in the Timer definition from the STM32 Config
+     */
 		TIM_HandleTypeDef* htim;
 
+    /**
+     * Private variable distanceCm that holds the centimeter readings from the HCSR04 Sensor
+     */
 		uint32_t distanceCm;
 };
 

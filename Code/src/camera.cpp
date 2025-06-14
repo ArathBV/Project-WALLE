@@ -23,7 +23,7 @@
 
 //#define OV2640_I2C_ADDR 0x60  // 0x30 << 1
 
-/*
+/**
  * @brief Constructor function for the Camera Class
  */
 OV2640Camera::OV2640Camera(I2C_HandleTypeDef* i2c, SPI_HandleTypeDef* spi, GPIO_TypeDef* cs_port, uint16_t cs_pin)
@@ -31,7 +31,7 @@ OV2640Camera::OV2640Camera(I2C_HandleTypeDef* i2c, SPI_HandleTypeDef* spi, GPIO_
     memset(frame_buffer_, 0, FRAME_SIZE);
 }
 
-/*
+/**
  * @brief Function sets the Chip Select GPIO pin high for SPI Communication
  * @return None
  */
@@ -39,7 +39,7 @@ void OV2640Camera::csHigh() {
     HAL_GPIO_WritePin(cs_port_, cs_pin_, GPIO_PIN_SET);
 }
 
-/*
+/**
  * @brief Function sets the Chip Select GPIO pin low for SPI Communication
  * @return None
  */
@@ -47,16 +47,18 @@ void OV2640Camera::csLow() {
     HAL_GPIO_WritePin(cs_port_, cs_pin_, GPIO_PIN_RESET);
 }
 
-/*
+/**
  * @brief Function takes in a register and value utilizing I2C to write to the desired
  * register.
+ * @param reg Parameter that takes in the register value to write data into
+ * @param val Parameter that takes in the data to write to specified register
  * @return None
  */
 void OV2640Camera::writeRegister(uint8_t reg, uint8_t val) {
     HAL_I2C_Mem_Write(i2c_, 0x60, reg, I2C_MEMADD_SIZE_8BIT, &val, 1, HAL_MAX_DELAY);
 }
 
-/*
+/**
  * @brief Function initializes the camera for photo capturing by using the OV2640 register and values
  * list in the header/include folder.
  * @return Boolean
@@ -71,7 +73,7 @@ bool OV2640Camera::initialize() {
     return true;
 }
 
-/*
+/** 
  * @brief Function captures a single frame from the camera storing the RGB and data
  * from the photo for parsing and basic color detection.
  * @return None
@@ -103,9 +105,10 @@ bool OV2640Camera::captureFrame() {
     return true;
 }
 
-/*
+/** 
  * @brief Function is designed to parse the photo data captured by the camera.
  * The data is the transmitted via USART to a PUTTY Terminal for viewing and debugging.
+ * @param huart Parameter that sets the USART definition from the STM32 HAL Configuration
  * @return None
  */
 void OV2640Camera::printCaptureReport(UART_HandleTypeDef* huart) {
@@ -162,7 +165,7 @@ void OV2640Camera::printCaptureReport(UART_HandleTypeDef* huart) {
     HAL_UART_Transmit(huart, (uint8_t*)buf, strlen(buf), HAL_MAX_DELAY);
 }
 
-/*
+/**
  * @brief Function is the analysis/parsing function to analyze the colors in frame by pixels
  * @return None
  */
@@ -199,7 +202,7 @@ DominantColor OV2640Camera::analyzeColor() {
     return COLOR_UNKNOWN;
 }
 
-/*
+/**
  * @brief Function is the analysis/parsing function focusing solely on the pixels
  * closer to the center of the Camera
  * @return None
@@ -245,10 +248,11 @@ DominantColor OV2640Camera::analyzeColorCenter() {
     return COLOR_UNKNOWN;
 }
 
-/*
+/**
  * @brief Function is designed to parse the photo data captured by the camera focusing
  * on blue color pixels and selecting by a threshold value. The data is the transmitted
  * via USART to a PUTTY Terminal for viewing and debugging.
+ * @param huart Parameter that sets the USART definition from the STM32 HAL Configuration
  * @return None
  */
 void OV2640Camera::printBlueDetectionMap(UART_HandleTypeDef* huart) {

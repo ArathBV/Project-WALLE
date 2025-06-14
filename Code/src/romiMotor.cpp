@@ -24,7 +24,7 @@
 //#define OV2640_I2C_ADDR 0x60  // 0x30 << 1
 
 
-/*
+/**
  * @brief Construction for the ROMI Motor Class
  */
 RomiMotor::RomiMotor(GPIO_TypeDef* enPort, uint16_t enPin,
@@ -33,7 +33,7 @@ RomiMotor::RomiMotor(GPIO_TypeDef* enPort, uint16_t enPin,
 		ph_Port(phPort), ph_Pin(phPin), sl_Port(slPort), sl_Pin(slPin), duty_Cycle(0),
 		pwm_Counter(0){}
 
-/*
+/**
  * @brief Function Enables the motor to operate based on the PWM
  * @return None
  */
@@ -42,7 +42,7 @@ void RomiMotor::enable(){
 	//HAL_GPIO_WritePin(en_Port, en_Pin, GPIO_PIN_SET);
 }
 
-/*
+/**
  * @brief Function disables the motor to no longer respond to pwm signals
  * @return None
  */
@@ -51,9 +51,11 @@ void RomiMotor::disable(){
 
 }
 
-/*
+/**
  * @brief Function Sets the Direction of the PWM Signal and changes direction based
  * on the duty value
+ * @param speed Parameter that sets the Romi Motor speed ranging from -100 to 100
+ * @return None
  */
 void RomiMotor::setSpeed(int8_t speed){
 	if (speed > 100) speed = 100;
@@ -63,7 +65,7 @@ void RomiMotor::setSpeed(int8_t speed){
     HAL_GPIO_WritePin(ph_Port, ph_Pin, (speed <= 0) ? GPIO_PIN_SET : GPIO_PIN_RESET);
 }
 
-/*
+/**
  * @brief Function uses and internal timer to trigger PWM signals via this function through the use
  * of the PWM/Duty Cycle Given
  * @return None
@@ -82,7 +84,7 @@ void RomiMotor::updatePWM(){
 	}
 }
 
-/*
+/**
  * @brief Function allows the user to get the current duty
  * @return int8_t
  */

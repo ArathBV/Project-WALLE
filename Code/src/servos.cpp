@@ -19,13 +19,13 @@
 #include "servos.h"
 
 
-/*
+/**
  * @brief Constructor Function for Servo Motor Class
  */
 Servo::Servo(TIM_HandleTypeDef* htim, uint32_t channel)
     : htim(htim), channel(channel) {}
 
-/*
+/**
  * @brief Function starts the PWM Channel for the Servo Movement
  * @return None
  */
@@ -33,7 +33,7 @@ void Servo::attach() {
     HAL_TIM_PWM_Start(htim, channel);
 }
 
-/*
+/**
  * @brief Function stops the PWM Signal received from the PWM
  * @return None
  */
@@ -41,9 +41,10 @@ void Servo::detach() {
     HAL_TIM_PWM_Stop(htim, channel);
 }
 
-/*
+/**
  * @brief Function sets the Servo's motor pulse width to determin the angle at which
  * the servo moves to or holds
+ * @param pulse_us Parameter that determines what pulse to send to set the Servo to a specified angle
  * @return None
  */
 void Servo::setPulseWidth(uint16_t pulse_us) {
@@ -53,8 +54,9 @@ void Servo::setPulseWidth(uint16_t pulse_us) {
     __HAL_TIM_SET_COMPARE(htim, channel, pulse_us);  // Each tick = 1 µs
 }
 
-/*
+/**
  * @brief Function set's the Servo motor's pulse width based on the desired angle from the servo.
+ * @param angleDeg Parameter that sets the servo to a position based on the actual angle rather than pulse
  * @return None
  */
 void Servo::setAngle(uint8_t angleDeg) {
@@ -67,8 +69,9 @@ void Servo::setAngle(uint8_t angleDeg) {
     setPulseWidth(pulse);
 }
 
-/*
+/**
  * @brief Function calculates the angle requested to the PWM pulse that is needed to create the angle.
+ * @param angleDeg Parameter that takes in the desired angle and translate to the pulse necessary to set the servo
  * @return uint16_t
  */
 uint16_t Servo::angleToPulse(uint8_t angleDeg) {
@@ -76,8 +79,10 @@ uint16_t Servo::angleToPulse(uint8_t angleDeg) {
     return 1000 + ((angleDeg * 1000) / 180);  // No floats used
 }
 
-/*
+/**
  * @brief Function sets Servo to start to stop angle incrementing till requested angle
+ * @param angle1 Parameter sets the starting angle to move the servo in a sequence
+ * @param angle2 Parameter sets the ending angle to move the servo in a sequence
  * @return None
  */
 void Servo::startStopAngle(uint8_t angle1, uint8_t angle2){

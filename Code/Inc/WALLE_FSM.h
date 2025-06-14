@@ -28,6 +28,9 @@
 #include "pidController.h"
 #include <cmath>
 
+/**
+ * @brief WALL-E class that holds all necessary peripherals and devices in order to control WALL-E and complete it's goal and objective.
+ */
 class WALLE {
 public:
     WALLE(BNO055& imu, HCSR04& range, RomiMotor& leftMotor, RomiMotor& rightMotor, OV2640Camera& camera,
@@ -41,15 +44,19 @@ public:
     void computerVision();
 
 private:
+
+    /**
+    * @brief Enumeration for Color Detection
+    */
     enum class State {
-    	START_SCAN,
-		TURN_SEGMENT,
-		STOP_MEASURE,
-        FINISH_SCAN,
-        TURN,
-        FORWARD,
-        STOP,
-		IDENTIFY
+    	  START_SCAN,     /**<START_SCAN FSM State to begin scans and data collection*/
+		    TURN_SEGMENT,   /**<TURN_SEGMENT FSM State to turn to the next angle for data collection*/
+		    STOP_MEASURE,   /**<STOP_MEASURE FSM State to record angle data and distance data*/
+        FINISH_SCAN,    /**<FINISH_SCAN FSM State that indicates all angles and distances have been recorded */
+        TURN,           /**<TURN FSM State to turn to the angle which has the closest object detected*/
+        FORWARD,        /**<FORWARD FSM State to move forward towards the object*/
+        STOP,           /**<STOP FSM State to stop in front of object after a certain threshold*/
+		    IDENTIFY        /**<IDENTIFY FSM State to utilize computer vision to detect the color*/
     }state;
 
     // References to hardware peripherals

@@ -19,7 +19,7 @@
 #include "WALLE_FSM.h"
 #include "main.h" // for HAL_Delay if needed
 
-/*
+/**
  * @brief WALLE Constructor Function that holds reference to all sensors for use in FSM.
  */
 WALLE::WALLE(BNO055& imu, HCSR04& range, RomiMotor& leftMotor, RomiMotor& rightMotor,
@@ -30,7 +30,7 @@ WALLE::WALLE(BNO055& imu, HCSR04& range, RomiMotor& leftMotor, RomiMotor& rightM
       targetYaw(0.0f), initialYaw(0.0f),currentSegment(0), totalSegments(8), segmentAngle(45.0f),
 	  stopTimer(0) {}
 
-/*
+/**
  * @brief Function Initializes WALLE and restes the current PID States.
  * @return None
  */
@@ -40,10 +40,10 @@ void WALLE::init() {
     state = State::START_SCAN;
 }
 
-/*
+/**
  * @brief Function updates the FSM and peripherals at every call, creating
  * the autonomous WALL_E Bot based on PID.
- * return None
+ * @return None
  */
 void WALLE::update(float dt) {
     float yaw = imu.getYaw();
@@ -148,6 +148,10 @@ void WALLE::update(float dt) {
     }
 }
 
+/**
+ * @brief Function that is a simpler version of the WALL-E FSM without the use PID controls and still utilizes external peripherals
+ * @return None
+ */
 void WALLE::simpleUpdate(float dt, float yaw, uint16_t distance){
 	switch (state) {
 		case State::START_SCAN:
@@ -213,7 +217,7 @@ void WALLE::simpleUpdate(float dt, float yaw, uint16_t distance){
 	}
 }
 
-/*
+/**
  * @brief Function stops motors completely
  * @return None
  */
@@ -228,7 +232,7 @@ float WALLE::normalizeAngle(float angle) {
     return angle;
 }
 
-/*
+/**
  * @brief Function is responsible for closing the hands on WALLE
  * @return None
  */
@@ -237,7 +241,7 @@ void WALLE::closeHands(){
 	rightHand.setAngle(0);
 }
 
-/*
+/**
  * @brief Function is responsible for raising and lowering the arms.
  * @return None
  */

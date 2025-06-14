@@ -20,11 +20,9 @@
 
 #include "hcsr04.h"
 
-/*
+/**
  * @brief Constructor Function that initializes the class variables/instances
  */
-#include "hcsr04.h"
-
 HCSR04::HCSR04(GPIO_TypeDef* trigPort, uint16_t trigPin,
                GPIO_TypeDef* echoPort, uint16_t echoPin,
                TIM_HandleTypeDef* htim)
@@ -35,7 +33,7 @@ HCSR04::HCSR04(GPIO_TypeDef* trigPort, uint16_t trigPin,
     HAL_TIM_Base_Start(htim); // Ensure timer is running
 }
 
-/*
+/**
  * @brief Function Triggers the 10us Pulse on the trigger pin to be read from
  * the echo pin
  * @return None
@@ -50,7 +48,7 @@ void HCSR04::trigger() {
     HAL_GPIO_WritePin(trigPort, trigPin, GPIO_PIN_RESET);
 }
 
-/*
+/**
  * @brief Function if the sensor is ready to measure the function triggers then calculates the
  * distance an object is away from the sensor and updates it's variable
  * @return Boolean
@@ -80,7 +78,7 @@ bool HCSR04::measure() {
     return true;
 }
 
-/*
+/**
  * @brief Function allows the user to extract the Distance in cm the object is.
  * @return uint32_t
  */

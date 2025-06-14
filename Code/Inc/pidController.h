@@ -18,7 +18,9 @@
 #ifndef INC_PIDCONTROLLER_H_
 #define INC_PIDCONTROLLER_H_
 
-
+/**
+ * @brief PID Controller class for sensor fusion and motor controls when driving to and near an object
+ */
 class PIDController {
 	public:
 		PIDController(float kp, float ki, float kd);

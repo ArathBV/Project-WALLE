@@ -21,6 +21,9 @@
 
 #include "stm32f4xx_hal.h"
 
+/**
+ * @brief WALL-E servo motors class developed for hands and arm movements.
+ */
 class Servo {
 	public:
 		Servo(TIM_HandleTypeDef* htim, uint32_t channel);
@@ -32,7 +35,15 @@ class Servo {
 		void startStopAngle(uint8_t angle1, uint8_t angle2);
 
 	private:
+
+    /**
+     * Private variable htim that takes in the Timer definition from the STM32 Config
+     */
 		TIM_HandleTypeDef* htim;
+
+    /**
+     * Private variable channel that takes in the specified Timer Channel definition from the STM32 Config for PWM
+     */
 		uint32_t channel;
 
 		uint16_t angleToPulse(uint8_t angleDeg); // Internal map: 0–180 → 1000–2000 µs
