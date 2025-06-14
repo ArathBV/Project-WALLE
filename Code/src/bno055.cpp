@@ -29,15 +29,16 @@
 #define GYRO_DATA_LSB     0x14
 
 
-/*
+/**
  * @brief Constructor Function to initialize the BNO055 Class
  */
 BNO055::BNO055(I2C_HandleTypeDef* hi2c, uint8_t addr)
     : hi2c(hi2c), addr(addr << 1){}
 
 
-/*
+/**
  * @brief Function handles the configuration and initialization of the BNO055 IMU
+ * @param mode Parameter for determining what mode to operate the IMU at see REG modes
  * @return Boolean
  */
 bool BNO055::init_imu(REG mode) {
@@ -57,7 +58,7 @@ bool BNO055::init_imu(REG mode) {
     return true;
 }
 
-/*
+/**
  * @brief Function Updates the Euler values based on the IMU's current readings. Roll
  * Pitch, and Yaw are updated within the class.
  * @return Boolean
@@ -77,7 +78,7 @@ bool BNO055::updateEuler() {
     return true;
 }
 
-/*
+/** 
  * @brief Function pull they data from the gyroscope retrieving angular velocities.
  * @return Boolean
  */
@@ -93,7 +94,7 @@ bool BNO055::updateGyro() {
     return true;
 }
 
-/*
+/**
  * @brief Function allows users to retrieve the yaw rate around the Z axis
  * @return int16_t
  */
@@ -101,7 +102,7 @@ int16_t BNO055::getYawRateZ() {
     return gyroZ / 16.0f;  // BNO055 gyro units = LSB/16 dps (degrees per second)
 }
 
-/*
+/**
  * @brief Function allows for the user to get the current yaw value
  * @return int16_t
  */
@@ -109,7 +110,7 @@ int16_t BNO055::getYaw(){
 	return yaw;
 }
 
-/*
+/**
  * @brief Function allows for the user to get the current roll value
  * @return int16_t
  */
@@ -117,7 +118,7 @@ int16_t BNO055::getRoll(){
 	return roll;
 }
 
-/*
+/** 
  * @brief Function allows for the user to get the current pitch value
  * @return int16_t
  */
@@ -125,8 +126,12 @@ int16_t BNO055::getPitch(){
 	return pitch;
 }
 
-/*
+/**
  * @brief Function Checks the Calibration status of the IMU and individual sensors.
+ * @param sys Parameter for a reference to the system calibration status
+ * @param gyro Parameter for a reference to the gyro calibration status
+ * @param accel Parameter for a reference to the accel calibration status
+ * @param mag Parameter for a reference to the mag calibration status
  * @return True upon successful readings
  */
 bool BNO055::readCalibStatus(uint8_t& sys, uint8_t& gyro, uint8_t& accel, uint8_t& mag){
@@ -141,16 +146,21 @@ bool BNO055::readCalibStatus(uint8_t& sys, uint8_t& gyro, uint8_t& accel, uint8_
 	return true;
 }
 
-/*
+/**
  * @brief Function writes values to the specified register given by the user.
+ * @param reg Parameter that takes in a register value to write to
+ * @param value Parameter that takes in the data to write to the specified register
  * @return Boolean
  */
 bool BNO055::writeByte(uint8_t reg, uint8_t value) {
     return HAL_I2C_Mem_Write(hi2c, addr, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY) == HAL_OK;
 }
 
-/*
+/**
  * @brief Function reads the current value of the specified register given by the user.
+ * @param reg Parameter that takes in a register to read from
+ * @param buffer Parameter that takes in a data buffer to read the data from the select register
+ * @param len Parameter that specifies the length of the incoming data
  * @return Boolean
  */
 bool BNO055::readLen(uint8_t reg, uint8_t* buffer, uint8_t len) {
