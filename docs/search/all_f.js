@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['rangesensor_0',['rangeSensor',['../class_w_a_l_l_e.html#a7ad899dd6c5ac065dec059ff928a574a',1,'WALLE']]],
+  ['readcalibstatus_1',['readCalibStatus',['../class_b_n_o055.html#aad7e2b8e0df13b32ce4d26d62563bfc0',1,'BNO055']]],
+  ['readlen_2',['readLen',['../class_b_n_o055.html#ab69741f85bd7152491677a2d3334fa0d',1,'BNO055']]],
+  ['readme_2emd_3',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readvoltageraw_5fmv_4',['readVoltageRaw_mV',['../class_battery_monitor.html#a6b13ba679295f8ffeac765031a31afb0',1,'BatteryMonitor']]],
+  ['reg_5',['REG',['../class_b_n_o055.html#a6dd0349d3e1d3f919b0ca6096d25d7fe',1,'BNO055']]],
+  ['reg_6',['reg',['../structregval__list.html#a1283190ce0fd46db983212bf28a5e39f',1,'regval_list']]],
+  ['regval_5flist_7',['regval_list',['../structregval__list.html',1,'']]],
+  ['reset_8',['reset',['../class_p_i_d_controller.html#ab6adfbffa30414f0a83b95ba999a2fea',1,'PIDController']]],
+  ['rightarm_9',['rightArm',['../class_w_a_l_l_e.html#a3726e4bba8d4b0fcf2945f817ecab8f2',1,'WALLE']]],
+  ['righthand_10',['rightHand',['../class_w_a_l_l_e.html#a95b7e0d7036cdff51310654dbd36c0a4',1,'WALLE']]],
+  ['rightmotor_11',['rightMotor',['../class_w_a_l_l_e.html#accb3e9a2c5779fba8d0083cfd936ce4b',1,'WALLE::rightMotor'],['../main_8cpp.html#ae416cbf89083efc578c7ab22d5dbed84',1,'rightMotor:&#160;main.cpp']]],
+  ['roll_12',['roll',['../class_b_n_o055.html#ac230f998cde4ec813bca8c3d362d6104',1,'BNO055']]],
+  ['romimotor_13',['RomiMotor',['../class_romi_motor.html',1,'RomiMotor'],['../class_romi_motor.html#a5159f3d00f4e620361bcb3dc1dde1c98',1,'RomiMotor::RomiMotor()']]],
+  ['romimotor_2ecpp_14',['romiMotor.cpp',['../romi_motor_8cpp.html',1,'']]],
+  ['romimotor_2eh_15',['romiMotor.h',['../romi_motor_8h.html',1,'']]],
+  ['row_5fwidth_16',['ROW_WIDTH',['../camera_8h.html#a2581c8a83f33ada2653ae7e305cccc12',1,'camera.h']]]
+];
