@@ -93,9 +93,83 @@ $(function(){initNavTree('electrical.html','',''); });
   <div class="headertitle"><div class="title">Electrical Design </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
-Overview</h2>
-<p>This page will explain the Electrical Design aspects of the WALL-E project. </p>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+Overview</h1>
+<p>This page will explain the Electrical Design aspects of the WALL-E project from PCB design to pinout setup.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+WALL-E Pinout Table</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">#  </th><th class="markdownTableHeadNone">Device  </th><th class="markdownTableHeadNone">STM Pin  </th><th class="markdownTableHeadNone">Function  </th><th class="markdownTableHeadNone">Device Pin  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1  </td><td class="markdownTableBodyNone">Right Motor  </td><td class="markdownTableBodyNone">PA15  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">EN_right  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">2  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB1  </td><td class="markdownTableBodyNone">TIM3_CH4 (AF2)  </td><td class="markdownTableBodyNone">DIR_right  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">3  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB7  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">SL_right  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">4  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB7  </td><td class="markdownTableBodyNone">TIM4_CH2  </td><td class="markdownTableBodyNone">ENCA_right  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">5  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB8  </td><td class="markdownTableBodyNone">TIM4_CH3  </td><td class="markdownTableBodyNone">ENCB_right  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">6  </td><td class="markdownTableBodyNone">Left Motor  </td><td class="markdownTableBodyNone">PC4  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">EN_left  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">7  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB0  </td><td class="markdownTableBodyNone">TIM3_CH3 (AF2)  </td><td class="markdownTableBodyNone">DIR_left  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">8  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PC5  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">SL_left  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">9  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PA0_WKUP  </td><td class="markdownTableBodyNone">TIM2_CH1  </td><td class="markdownTableBodyNone">ENCA_left  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">10  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB10  </td><td class="markdownTableBodyNone">TIM2_CH2  </td><td class="markdownTableBodyNone">ENCB_left  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">11  </td><td class="markdownTableBodyNone">Left Arm <a class="el" href="class_servo.html" title="WALL-E servo motors class developed for hands and arm movements.">Servo</a>  </td><td class="markdownTableBodyNone">PA8  </td><td class="markdownTableBodyNone">TIM1_CH1 (AF1)  </td><td class="markdownTableBodyNone">L_ArmPWM  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">12  </td><td class="markdownTableBodyNone">Left Hand <a class="el" href="class_servo.html" title="WALL-E servo motors class developed for hands and arm movements.">Servo</a>  </td><td class="markdownTableBodyNone">PA9  </td><td class="markdownTableBodyNone">TIM1_CH2 (AF1)  </td><td class="markdownTableBodyNone">L_Hand_PWM  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">13  </td><td class="markdownTableBodyNone">Right Hand <a class="el" href="class_servo.html" title="WALL-E servo motors class developed for hands and arm movements.">Servo</a>  </td><td class="markdownTableBodyNone">PA10  </td><td class="markdownTableBodyNone">TIM1_CH3 (AF1)  </td><td class="markdownTableBodyNone">R_Hand_PWM  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">14  </td><td class="markdownTableBodyNone">Right Arm <a class="el" href="class_servo.html" title="WALL-E servo motors class developed for hands and arm movements.">Servo</a>  </td><td class="markdownTableBodyNone">PA11  </td><td class="markdownTableBodyNone">TIM1_CH4 (AF1)  </td><td class="markdownTableBodyNone">R_Arm_PWM  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">15  </td><td class="markdownTableBodyNone">Camera  </td><td class="markdownTableBodyNone">PB9  </td><td class="markdownTableBodyNone">I2C1_SCL(AF4)  </td><td class="markdownTableBodyNone">I2C_SCL  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">16  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB6  </td><td class="markdownTableBodyNone">I2C1_SCL(AF4)  </td><td class="markdownTableBodyNone">I2C_SCL  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">17  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PC12  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">CAM_CS  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">18  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PA5  </td><td class="markdownTableBodyNone">SPI1_SCK (AF5)  </td><td class="markdownTableBodyNone">CAM_SCLK  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">19  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PA7  </td><td class="markdownTableBodyNone">SPI1_MOSI(AF5)  </td><td class="markdownTableBodyNone">CAM_MOSI  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">20  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB4  </td><td class="markdownTableBodyNone">SPI1_MISO(AF5)  </td><td class="markdownTableBodyNone">CAM_MISO  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">21  </td><td class="markdownTableBodyNone">Range Finder  </td><td class="markdownTableBodyNone">PB5  </td><td class="markdownTableBodyNone">TIM3_CH2 (AF2)  </td><td class="markdownTableBodyNone">Echo  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">22  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PA6  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">Trig  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">23  </td><td class="markdownTableBodyNone">IMU (<a class="el" href="class_b_n_o055.html" title="BNO055 class for the IMU containing modes of operation, initialization, and reading data.">BNO055</a>)  </td><td class="markdownTableBodyNone">PB6  </td><td class="markdownTableBodyNone">I2C1_SCL(AF4)  </td><td class="markdownTableBodyNone">I2C_SCL  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">24  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB9  </td><td class="markdownTableBodyNone">I2C1_SDA(AF4)  </td><td class="markdownTableBodyNone">I2C_SDA  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">25  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PA4  </td><td class="markdownTableBodyNone">Digital Output  </td><td class="markdownTableBodyNone">IMU_NRST  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">26  </td><td class="markdownTableBodyNone">Battery  </td><td class="markdownTableBodyNone">PA1  </td><td class="markdownTableBodyNone">ADC  </td><td class="markdownTableBodyNone">Bat_ADC  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">27  </td><td class="markdownTableBodyNone">LED  </td><td class="markdownTableBodyNone">PC13  </td><td class="markdownTableBodyNone">Digital Output (active low)  </td><td class="markdownTableBodyNone">N/A  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">28  </td><td class="markdownTableBodyNone">STLink  </td><td class="markdownTableBodyNone">PA13  </td><td class="markdownTableBodyNone">SYS Trace Async SW  </td><td class="markdownTableBodyNone">ST_SWDIO  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">29  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PA14  </td><td class="markdownTableBodyNone">SYS Trace Async SW  </td><td class="markdownTableBodyNone">ST_SWCLK  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">30  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">NRST  </td><td class="markdownTableBodyNone">SYS Trace Async SW  </td><td class="markdownTableBodyNone">NRST  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">31  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">PB3  </td><td class="markdownTableBodyNone">SYS Trace Async SW  </td><td class="markdownTableBodyNone">ST_SWO  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">32  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">A3  </td><td class="markdownTableBodyNone">USART2_RX  </td><td class="markdownTableBodyNone">ST_TX  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">33  </td><td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">A2  </td><td class="markdownTableBodyNone">USART2_TX  </td><td class="markdownTableBodyNone">ST_RX  </td></tr>
+</table>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+PCB Design</h2>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

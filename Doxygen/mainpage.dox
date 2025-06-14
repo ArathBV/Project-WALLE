@@ -1,7 +1,7 @@
 /**
  * \mainpage WALL-E Project
  *
- * Welcome to **WALL-E** Project!
+ * # Welcome to **WALL-E** Project!
  *
  * ![Final Design: WALL-E](images/WALLE_COMPL.png)
  * 
@@ -21,6 +21,7 @@
  *
  * ## Repo Structure
  * - `Code/`: Main source code and header files
- * - `Hardware/`: Contains Modified 3D CAD models and stl files of WALL-E. Also Contains
+ * - `Hardware/`: Contains Modified 3D CAD models and stl files of WALL-E. Also contains
  * the PCB design files for WALL-E.
+ * - `Doxygen/`: Holds the Doxygen output for the website
  */

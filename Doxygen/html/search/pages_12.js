@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['video_20of_20wall_20e_0',['Demo Video of WALL-E',['../index.html#autotoc_md2',1,'']]]
+  ['ultrasonic_20sensor_0',['Ultrasonic Sensor',['../sensors.html#autotoc_md43',1,'']]],
+  ['use_1',['Component Description and Use',['../sensors.html#autotoc_md39',1,'']]]
 ];
